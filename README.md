@@ -1,90 +1,91 @@
-# <a name="top"></a>DataSentience-AIML 💡
 
-## Integrating AI in All Fields: Medical, Financial, LLM, and Real-World Applications
+# 🌐 Welcome to **Project-AIML** – DataSentience-AIML 💡
 
-Welcome to **Project-AIML!** 📈
+### *Part of Social Summer of Code 2025* 🚀
 
-This project focuses on implementing cutting-edge AI-driven strategies utilizing deep learning models, reinforcement learning techniques, and data-driven decision-making across various fields, including healthcare, finance, natural language processing (LLMs), and real-world applications.
-
+**“Integrating AI across Medical, Financial, LLM, and Real-World Applications”**
 
 ---
 
-## 🎥 Video Description of the Project and Repository Overview
+## 👋 Hello Contributor! Welcome to the family 🎉
 
-*Coming soon... Stay tuned!*
+We’re excited to have you as part of **Social Summer of Code** and this impactful AI project!
+This repository focuses on solving real-world challenges using **deep learning**, **reinforcement learning**, and **intelligent automation**, with applications in:
 
----
+* 🏥 **Healthcare**
+* 💰 **Finance**
+* 🧠 **Natural Language Processing (LLMs)**
+* 🌐 **Real-World Systems & Web Apps**
 
-## 📊 Overview 
-
-This project integrates the power of:
-
-- **Financial Programming** 💻
-- **Deep Learning** 🧠
-- **Machine Learning** 🤖
-
-### Technologies & Libraries Used:
-
-<p align="left">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" width="50" height="50"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="Jupyter Notebook" width="50" height="50"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="50" height="50"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Scikit-learn_logo.svg" alt="Scikit-learn" width="50" height="50"/>
-  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" width="50" height="50"/>
-
-
-</p>
+Let’s build something meaningful — together! 💫
 
 ---
 
-## 🚀 Getting Started 
+## 🛠️ How to Contribute
 
-To contribute to this project, follow these steps:
-
-1. **Fork** the repository on GitHub.
-2. **Clone** the forked project to your local machine:
-   ```bash
-   git clone <forked_repo_url>
-   ```
-3. Create a **new branch** for your work:
-   ```bash
-   git checkout -b your-branch-name
-   ```
-4. Make changes and improvements in your branch.
-5. **Commit** your changes:
-   ```bash
-   git commit -m "Add your descriptive commit message"
-   ```
-6. **Push** your changes to your forked repository:
-   ```bash
-   git push origin your-branch-name
-   ```
-7. **Submit a Pull Request (PR)** to the main repository for review.
+1. **Fork** the repo and clone it to your local machine.
+2. Browse **Issues** and comment **"I want to work on this"** to get it assigned.
+3. Work on your feature or fix, then submit a **Pull Request (PR)**.
+4. Wait for review, and stay engaged with the community.
 
 ---
 
-## 🛠️ Ways to Contribute 
+## 🏷️ Issue Labels for SSoC
 
-We welcome contributions in various forms, such as:
-
-- Reporting bugs or issues 🐞
-- Providing feedback on the existing codebase 💬
-- Submitting fixes for identified issues ✅
-- Proposing new features or enhancements 🚀
-- Improving documentation 📝
-- Adding code snippets, algorithms, or techniques related to **financial programming** 💼
-
-Let's collaborate and build something great! 💪
-
----
-
-## Repository Details 
-
-**GitHub Repository:** [PRIYANSHU2026/Project-AIML](https://github.com/PRIYANSHU2026/Project-AIML)
+| Label               | Meaning                                               |
+| ------------------- | ----------------------------------------------------- |
+| `SSoC-beginner`     | Easy issues perfect for first-timers 💫               |
+| `SSoC-intermediate` | Medium-level tasks needing moderate experience        |
+| `SSoC-advanced`     | Complex issues or model integration                   |
+| `bug`               | Fix errors or malfunctioning features                 |
+| `enhancement`       | Improve or extend existing functionality              |
+| `documentation`     | Improve or update README / guides                     |
+| `web-app`           | Build UI/frontend or integrate backend APIs (⭐ bonus) |
+| `LLM`               | Work with transformer-based language models           |
+| `domain-medical`    | Healthcare-related models or pipelines                |
+| `domain-finance`    | Finance-related AI/ML components                      |
 
 ---
 
-Happy Coding! ✨
+## ✅ Merge (PR) Standards
 
+> 🧠 Please follow these simple steps to ensure your PR is accepted smoothly!
 
+* PR must be linked to an open issue (`Closes #issue_number` in description).
+* Add clear and meaningful title (e.g., `Added BMI Prediction Module for HealthApp`).
+* Code should be clean, modular, and well-commented.
+* Pass linting and basic test cases (if applicable).
+* For UI changes, attach screenshots or demo links.
+* Documentation must be updated (README, docstrings, etc.).
+
+---
+
+## 🌟 Points & Recognition (SSoC Scoring)
+
+| Contribution                   | Points                         |
+| ------------------------------ | ------------------------------ |
+| Fixing Bugs                    | 10                             |
+| Adding New Features            | 20                             |
+| LLM/NLP Feature Implementation | 25                             |
+| Domain-Specific AI (Med/Fin)   | 25                             |
+| **Web App / Frontend Dev**     | **30** ⭐ (priority/high value) |
+| Documentation Improvements     | 5                              |
+
+> 🏆 **Top contributors** will be recognized on the project page, and receive shoutouts from mentors.
+
+---
+
+## 🤝 Community & Support
+
+* Join our [[Discussion Forum](https://github.com/PRIYANSHU2026/DataSentience-AIML/issues/new#)](#) or reach out via Issues for any help.
+* Stay active and respectful — open source is about collaboration! ❤️
+
+---
+
+## 🚀 Let’s make AI for all — one PR at a time!
+
+We’re truly grateful to have you onboard with **Social Summer of Code**. Let’s innovate, contribute, and grow together! 🌱
+
+---
+
+Would you like this saved as a markdown file (`CONTRIBUTING.md`) or integrated into your GitHub README?
