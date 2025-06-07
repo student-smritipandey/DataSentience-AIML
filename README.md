@@ -1,4 +1,4 @@
-# <a name="top"></a>Project-AIML 💡
+# <a name="top"></a>DataSentience-AIML 💡
 
 ## Integrating AI in All Fields: Medical, Financial, LLM, and Real-World Applications
 
