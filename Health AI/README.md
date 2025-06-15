@@ -5,14 +5,13 @@
 # 🏥 Health AI
 
 ### Healthcare Applications of AI
-
 - **Disease Prediction & Diagnosis** 🏥
 - **Medical Image Processing** 🩺
 - **Drug Discovery & Personalized Medicine** 💊
 - **AI in Patient Monitoring & Telemedicine** 📡
 
 ### Health AI Projects:
-
+-**Disease Prediction using Machine Learning:** A model to predict diseases like diabetes from clinical data.
 - **CCTV Accident Prediction:** AI-powered model for detecting accidents from CCTV footage.
 - **Medical Diagnosis using Deep Learning:** Using CNNs to diagnose diseases from medical images.
 - **Plant Disease Detection:** AI-based system for identifying plant diseases using image classification.
