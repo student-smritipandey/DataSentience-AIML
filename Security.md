@@ -2,15 +2,28 @@
 Supported Versions
 The following versions of DataSentience-AIML are currently supported with security updates:
 
-## Version	Supported
-1.x.x	✅ Supported
-0.x.x	❌ Not supported
-Reporting a Vulnerability
-If you discover a security vulnerability in DataSentience-AIML, we encourage you to report it as soon as possible. We will investigate all legitimate reports and do our best to quickly fix the issue.
+### 🛡️ Supported Versions
+The following modules of **DataSentience-AIML** are currently supported with security updates:
+
+| Module / Domain                    | Version     | Supported         |
+|------------------------------------|-------------|-------------------| 
+| Core Framework                     | 1.0.0       | ✅ Supported      |
+| LLM/NLP Engine                     | 1.1.0       | ✅ Supported      |
+| Medical Models                     | 0.9.5       | ⚠️ In Development |
+| Finance AI Pipeline                | 0.8.2       | ❌ Not supported  |
+| Web App (UI + Backend API)         | 1.0.3       | ✅ Supported      |  
+| Documentation                      | 1.0.0       | ✅ Supported      |
+| Experimental / Research            | 0.5.0-alpha | ❌ Not supported  | 
 
 # How to Report
-Please report vulnerabilities by emailing us at datasentience-aiml@gmail.com. Include as much detail as possible to help us identify and fix the issue swiftly.
-Do not share the vulnerability publicly until it has been addressed and a patch is available.
+If you discover a security vulnerability in this project, please follow these steps:
+
+1. **Do NOT create a public issue.**
+2. Instead, report it **privately via email** to: [techarena955@gmail.com]
+3. Include:
+   - A detailed description of the issue
+   - Steps to reproduce (if applicable)
+   - Any proof-of-concept code or screenshots
 
 #  Security Updates
 We will notify users via GitHub releases for any critical security updates.
