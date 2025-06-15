@@ -8,11 +8,11 @@ The following versions of DataSentience-AIML are currently supported with securi
 Reporting a Vulnerability
 If you discover a security vulnerability in DataSentience-AIML, we encourage you to report it as soon as possible. We will investigate all legitimate reports and do our best to quickly fix the issue.
 
-## How to Report
+# How to Report
 Please report vulnerabilities by emailing us at datasentience-aiml@gmail.com. Include as much detail as possible to help us identify and fix the issue swiftly.
 Do not share the vulnerability publicly until it has been addressed and a patch is available.
 
-## Security Updates
+#  Security Updates
 We will notify users via GitHub releases for any critical security updates.
 Minor security patches will be included in regular updates as needed.
 
