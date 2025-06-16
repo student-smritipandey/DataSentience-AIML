@@ -8,6 +8,16 @@ Welcome to **Health AI**, a machine learning-based healthcare assistant that pre
 This project integrates all three into a single, user-friendly **Streamlit** web interface, designed for accessibility and ease of use.
 
 ---
+## 🔍 UI Preview
+
+Here is a preview of the UI:
+
+![UI Screenshot](assets/1(diseasePrediction).jpeg)
+![UI Screenshot](assets/2(disbetes).jpeg)
+![UI Screenshot](assets/3(heartDisease).jpeg)
+![UI Screenshot](assets/4.jpeg)
+
+
 
 ## 🚀 Features
 
