@@ -92,7 +92,7 @@ Each subfolder contains:
 
 ## 🧑‍💻 Get Started
 
-Please follow our [CONTRIBUTING.md](./CONTRIBUTING.md) for full steps.  
+Please follow our [CONTRIBUTING.md](https://github.com/PRIYANSHU2026/DataSentience-AIML/blob/main/Contributing.md) for full steps.
 Briefly:
 
 1. **Fork + Clone** the repo  
