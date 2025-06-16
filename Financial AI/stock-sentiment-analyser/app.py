@@ -1,4 +1,3 @@
-# app.py
 from news_scraper import get_news_headlines
 from sentiment_model import analyze_sentiment
 from utils import predict_market_impact        
@@ -17,7 +16,7 @@ def main():
     }
     query = keyword_map.get(stock_name.upper(), stock_name)
 
-    api_key =# replace with your key
+    api_key =#replace with your news api  key
 
     print("\n🔍 Fetching news headlines…")
     headlines = get_news_headlines(query, api_key)
