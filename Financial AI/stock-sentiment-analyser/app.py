@@ -29,7 +29,7 @@ keyword_map = {
     "RELIANCE": "Reliance Industries"
 }
 
-api_key = "2a28b5a6a3e740cbbd12fa10442e29dd"  # 🔒 Replace with your actual key
+api_key = ""  # 🔒 Replace with your actual key
 
 if stock_input:
     query = keyword_map.get(stock_input.upper(), stock_input)
