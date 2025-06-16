@@ -9,3 +9,5 @@ __pycache__/
 *.jpeg
 *.csv
 
+.DS_Store
+.DS_Store
