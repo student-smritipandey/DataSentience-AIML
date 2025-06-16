@@ -1,47 +1,51 @@
+import streamlit as st
 from news_scraper import get_news_headlines
 from sentiment_model import analyze_sentiment
-from utils import predict_market_impact        
+from utils import predict_market_impact
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-def main():
-    print("📊 Stock Sentiment Analyzer (CLI)\n")
+# Load model & tokenizer once at the top
+@st.cache_resource
+def load_model():
+    tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
+    model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
+    return tokenizer, model
 
-    stock_name = input("Enter stock/company name (e.g., TCS, INFY, Tata Consultancy Services): ").strip()
+tokenizer, model = load_model()
 
-    # Map common tickers → full names for better NewsAPI results
-    keyword_map = {
-        "TCS": "Tata Consultancy Services",
-        "INFY": "Infosys",
-        "RELIANCE": "Reliance Industries"
-    }
-    query = keyword_map.get(stock_name.upper(), stock_name)
+st.set_page_config(page_title="📊 Stock Sentiment Analyzer", layout="centered")
+st.title("📊 Stock Sentiment Analyzer")
+st.write("Analyze news sentiment for your favorite stock and predict market mood.")
 
-    api_key =#replace with your news api  key
+stock_input = st.text_input("Enter stock/company name (e.g., TCS, INFY, Tata Consultancy Services)")
 
-    print("\n🔍 Fetching news headlines…")
+# Mapping for better NewsAPI results
+keyword_map = {
+    "TCS": "Tata Consultancy Services",
+    "INFY": "Infosys",
+    "RELIANCE": "Reliance Industries"
+}
+
+api_key = "your_news_api_key_here"  # Replace with your actual NewsAPI key
+
+if stock_input:
+    query = keyword_map.get(stock_input.upper(), stock_input)
+    st.info(f"Fetching news for: **{query}**")
+
     headlines = get_news_headlines(query, api_key)
 
     if not headlines:
-        print("❌ No relevant news found. Try a broader term.")
-        return
+        st.error("❌ No relevant news found. Try a broader or correct term.")
+    else:
+        st.subheader("📰 Top Headlines")
+        for i, headline in enumerate(headlines, 1):
+            st.markdown(f"{i}. {headline}")
 
-    print(f"\n📰 Top {len(headlines)} headlines:")
-    for i, h in enumerate(headlines, 1):
-        print(f"{i}. {h}")
+        st.subheader("🧠 Sentiment Analysis")
+        sentiment_scores = analyze_sentiment(headlines, tokenizer, model)
 
-    print("\n🧠 Analyzing sentiment…")
+        st.write("### 📊 Sentiment Breakdown")
+        st.bar_chart(sentiment_scores)
 
-    tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
-    model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
-
-    sentiment_scores = analyze_sentiment(headlines, tokenizer, model)
-
-    print("\n📊 Sentiment breakdown:")
-    for label, pct in sentiment_scores.items():
-        print(f"- {label.capitalize()}: {pct}%")
-
-    impact = predict_market_impact(sentiment_scores)
-    print("\n🔮 Market impact prediction:", impact)
-
-if __name__ == "__main__":
-    main()
+        impact = predict_market_impact(sentiment_scores)
+        st.write(f"### 🔮 Market Prediction: **{impact}**")
