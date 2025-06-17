@@ -11,6 +11,12 @@
 
 ---
 
+<!-- 🌟 AI/ML Theme GIF -->
+<p align="center">
+  <img src="https://rubikscode.net/wp-content/uploads/2022/08/Was-kommt-auf-uns-zu.gif"
+    alt="AI Theme Gif" width="800" />
+</p>
+
 ## 👋 Welcome Contributors!
 
 This is a collaborative AI/ML initiative under **Social Summer of Code (SSoC) 2025**, aimed at building real-world, impactful machine learning solutions across diverse domains.
