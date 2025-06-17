@@ -151,3 +151,17 @@ Let’s innovate, grow, and contribute during <strong>Social Summer of Code 2025
 <div align="center">
   <strong>Made with ❤️ by contributors and mentors</strong>
 </div>
+
+---
+
+## ⚙️ Environment Setup
+Follow these steps to set up the project environment on your local machine:
+
+### 🔁 1. Fork & Clone the Repository
+First, fork the repository to your GitHub account by clicking the **"Fork"** button at the top-right of the original repo.  
+🔗 [Original Repository – PRIYANSHU2026/DataSentience-AIML](https://github.com/PRIYANSHU2026/DataSentience-AIML)
+
+Then, clone your fork to your system:
+```bash
+git clone https://github.com/YOUR-USERNAME/DataSentience-AIML.git
+cd DataSentience-AIML
