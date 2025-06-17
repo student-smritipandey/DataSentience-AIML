@@ -2,8 +2,8 @@ from scripts.news_scraper import fetch_crypto_news
 from models.sentiment_model import CryptoSentimentAnalyzer
 
 def main():
-    print("📰 Crypto News Sentiment Analyzer\n")
-    api_key = "2a28b5a6a3e740cbbd12fa10442e29dd"
+    print("Crypto News Sentiment Analyzer\n")
+    api_key =""
     if not api_key:
         print("API key is required.")
         return
