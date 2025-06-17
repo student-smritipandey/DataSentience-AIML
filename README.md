@@ -89,3 +89,60 @@ We’re truly grateful to have you onboard with **Social Summer of Code**. Let�
 ---
 
 Would you like this saved as a markdown file (`CONTRIBUTING.md`) or integrated into your GitHub README?
+
+----
+
+## ⚙️ Environment Setup
+Follow these steps to set up the project environment on your local machine:
+
+### 🔁 1. Fork & Clone the Repository
+First, fork the repository to your GitHub account by clicking the **"Fork"** button at the top-right of the original repo.  
+🔗 [Original Repository – PRIYANSHU2026/DataSentience-AIML](https://github.com/PRIYANSHU2026/DataSentience-AIML)
+
+Then, clone your fork to your system:
+```bash
+git clone https://github.com/YOUR-USERNAME/DataSentience-AIML.git
+cd DataSentience-AIML
+```
+
+💡 To keep your fork up-to-date with the original project:
+```bash
+git remote add upstream https://github.com/PRIYANSHU2026/DataSentience-AIML.git
+```
+
+### 🧪 2. Create & Activate a Virtual Environment
+Use a virtual environment to manage dependencies:
+```bash
+python -m venv venv
+```
+
+Activate the environment:
+
+**For Windows:**
+```bash
+venv\Scripts\activate
+```
+
+**For macOS/Linux:**
+```bash
+source venv/bin/activate
+```
+
+### 📦 3. Install Required Dependencies
+Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+
+⚠️ **Note:** Ensure **Python 3.9+** is installed for full compatibility.
+
+### 🚀 4. Run the Project
+To launch Jupyter Notebooks:
+```bash
+jupyter notebook
+```
+
+To run a Python app or module:
+```bash
+python app.py
+```
