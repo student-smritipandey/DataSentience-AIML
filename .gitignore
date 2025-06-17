@@ -1,15 +1,2 @@
-ø
-ˇ# Ignore dataset and output files
-federatedlearning/chest_xray/
 __pycache__/
-*.pt
-*.log
-*.png
-*.jpg
-*.jpeg
-*.csv
 
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
