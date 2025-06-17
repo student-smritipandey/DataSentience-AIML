@@ -3,7 +3,11 @@
 This tool analyzes the **public sentiment** around a stock based on recent **news articles**. It helps investors and traders assess market mood and predict possible market movement direction.
 
 ---
+## 🔍 UI Preview
 
+Here is a preview of the UI:
+![UI Screenshot](assets/1.jpeg)
+![UI Screenshot](assets/2.jpeg)
 ## 🚀 Features
 
 - 🔍 **Input Stock Ticker** (e.g., `TCS`, `INFY`, etc.)
