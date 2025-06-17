@@ -45,6 +45,22 @@ To solve problems in:
 > <strong>Let’s innovate, contribute, and build together — one PR at a time! 🌱</strong>
 
 ---
+<details>
+<summary><strong>Table of Contents</strong></summary>
+
+- [📁 Project Structure](#-project-structure)
+- [💡 What You Can Build or Contribute](#-what-you-can-build-or-contribute)
+- [🏷️ Issue Labels (SSoC Specific)](#️-issue-labels-ssoc-specific)
+- [🧑‍💻 Get Started](#-get-started)
+- [🏆 SSoC Points System](#-ssoc-points-system)
+- [💬 Community & Support](#-community--support)
+- [🚀 Let’s Make AI for All — Together!](#-lets-make-ai-for-all--together)
+- [⚙️ Environment Setup](#️-environment-setup)
+  - [1. Fork & Clone the Repository](#-1-fork--clone-the-repository)
+
+</details>
+
+--- 
 
 ## 📁 Project Structure
 
@@ -154,12 +170,6 @@ Let’s innovate, grow, and contribute during <strong>Social Summer of Code 2025
 
 ---
 
-<div align="center">
-  <strong>Made with ❤️ by contributors and mentors</strong>
-</div>
-
----
-
 ## ⚙️ Environment Setup
 Follow these steps to set up the project environment on your local machine:
 
@@ -171,3 +181,11 @@ Then, clone your fork to your system:
 ```bash
 git clone https://github.com/YOUR-USERNAME/DataSentience-AIML.git
 cd DataSentience-AIML
+```
+---
+
+<div align="center">
+  <strong>Made with ❤️ by contributors and mentors</strong>
+</div>
+
+---
