@@ -16,6 +16,10 @@ The following modules of **DataSentience-AIML** are currently supported with sec
 | Experimental / Research            | 0.5.0-alpha | ❌ Not supported  | 
 
 # How to Report
+
+Please report vulnerabilities by emailing us at techarena955@gmail.com. Include as much detail as possible to help us identify and fix the issue swiftly.
+Do not share the vulnerability publicly until it has been addressed and a patch is available.
+
 If you discover a security vulnerability in this project, please follow these steps:
 
 1. **Do NOT create a public issue.**
@@ -24,6 +28,7 @@ If you discover a security vulnerability in this project, please follow these st
    - A detailed description of the issue
    - Steps to reproduce (if applicable)
    - Any proof-of-concept code or screenshots
+
 
 #  Security Updates
 We will notify users via GitHub releases for any critical security updates.
