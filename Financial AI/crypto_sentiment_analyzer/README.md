@@ -3,7 +3,9 @@
 A command-line tool to analyze the sentiment of the latest cryptocurrency news headlines using NLP. This project helps investors, researchers, and enthusiasts understand the **market sentiment** towards major cryptocurrencies like **Bitcoin (BTC)** and **Ethereum (ETH)**.
 
 ---
+
 [!UI screenshot](assets/image.png)
+
 
 ## 🚀 Features
 

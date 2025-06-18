@@ -1,35 +1,43 @@
+import streamlit as st
 from scripts.news_scraper import fetch_crypto_news
 from models.sentiment_model import CryptoSentimentAnalyzer
 
 def main():
-    print("Crypto News Sentiment Analyzer\n")
-    api_key =""
+    st.title("📈 Crypto News Sentiment Analyzer")
+    st.markdown("Analyze real-time crypto news articles for **Positive**, **Neutral**, or **Negative** sentiment.")
+
+    # --- Input: API Key ---
+    api_key = st.text_input("🔐 Enter your NewsAPI key", type="password")
     if not api_key:
-        print("API key is required.")
-        return
+        st.warning("Please enter your NewsAPI key to proceed.")
+        st.stop()
 
-    crypto = input("Enter crypto topic (e.g., bitcoin, ethereum): ").lower().strip() or "crypto"
-    num_articles = int(input("How many news articles to analyze? (default: 10): ") or 10)
+    # --- Input: Topic and Number of Articles ---
+    crypto = st.text_input("🪙 Enter crypto topic", value="bitcoin")
+    num_articles = st.slider("📄 Number of news articles to analyze", min_value=5, max_value=50, value=10)
 
-    print(f"\nFetching {num_articles} articles about {crypto}...\n")
-    news_list = fetch_crypto_news(api_key, query=crypto, page_size=num_articles)
+    if st.button("🔍 Analyze Sentiment"):
+        with st.spinner("Fetching and analyzing news..."):
+            news_list = fetch_crypto_news(api_key, query=crypto, page_size=num_articles)
 
-    if not news_list:
-        print("No articles found.")
-        return
+            if not news_list:
+                st.error("No articles found.")
+                return
 
-    analyzer = CryptoSentimentAnalyzer()
-    summary = {"positive": 0, "neutral": 0, "negative": 0}
+            analyzer = CryptoSentimentAnalyzer()
+            summary = {"positive": 0, "neutral": 0, "negative": 0}
 
-    for idx, news in enumerate(news_list, 1):
-        sentiment = analyzer.predict_sentiment(news)
-        label = max(sentiment, key=sentiment.get)
-        summary[label] += 1
-        print(f"[{idx}] {label.upper()} — {news[:100]}...\n")
+            for idx, news in enumerate(news_list, 1):
+                sentiment = analyzer.predict_sentiment(news)
+                label = max(sentiment, key=sentiment.get)
+                summary[label] += 1
 
-    print("Summary of Sentiment Analysis:")
-    for sentiment, count in summary.items():
-        print(f"{sentiment.capitalize()}: {count} articles")
+                # Display each article with sentiment
+                st.markdown(f"**{idx}. [{label.upper()}]** — {news[:150]}...")
+
+            # --- Summary Chart ---
+            st.subheader("📊 Sentiment Summary")
+            st.write(summary)
 
 if __name__ == "__main__":
     main()
