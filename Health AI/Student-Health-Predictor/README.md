@@ -20,10 +20,9 @@ Test Results:
 
 Setup Instructions
 Install Dependencies:
-
 pip install -r requirements.txt
-Run the Application:
 
+Run the Application:
 python app.py
 Access the Web Interface: Open your browser and go to http://localhost:5000
 
@@ -37,10 +36,12 @@ Indicate Family History:
 0 for No
 1 for Yes
 Click "Predict Probability" to get your mental health assessment
+
 Model Information
 Algorithm: Stacking Classifier (KNN + Random Forest + Naive Bayes)
 Features: Age, Gender, Family History
 Threshold: 0.5 probability for treatment recommendation
+
 Files Structure
 app.py - Flask web application
 mental_health.py - Model training and preprocessing
