@@ -3,14 +3,16 @@ A machine learning-based tool to predict the likelihood of a startup's success u
 
 [!UI Screenshot](assets/image.png)
 
-📌 Features
-🔍 Clean and preprocess raw startup data
+Features
+Clean and preprocess raw startup data
 
-🧠 Train a Random Forest classifier on labeled data
+Train a Random Forest classifier on labeled data
 
-🧪 Predict success (1) or failure (0) for new/unseen startups
+Predict success (1) or failure (0) for new/unseen startups
 
-📊 Evaluate predictions with accuracy and classification report (if labels exist)
+Evaluate predictions with accuracy and classification report (if labels exist)
 
-✅ CLI-based interface, Streamlit app coming soon!
+CLI-based interface, Streamlit app coming soon!
+
+
 
