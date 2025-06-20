@@ -3,7 +3,7 @@
 This project is a machine learning-based Crop Recommendation System that suggests the most suitable crop to grow based on environmental conditions such as soil nutrients and weather data.
 
 ---
-
+[!UI screenshot](assets/image.png)
 ## 📊 Dataset
 
 The dataset used is `Crop_recommendation.csv` and contains the following features:
