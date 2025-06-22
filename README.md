@@ -17,58 +17,52 @@
 
 ---
 
-<!-- 🌟 AI/ML Theme GIF -->
+<!-- AI/ML Theme GIF -->
 <p align="center">
-  <img src="https://rubikscode.net/wp-content/uploads/2022/08/Was-kommt-auf-uns-zu.gif"
-    alt="AI Theme Gif" width="800" />
+  <img src="https://rubikscode.net/wp-content/uploads/2022/08/Was-kommt-auf-uns-zu.gif" alt="AI Theme Gif" width="800" />
 </p>
 
 ## 👋 Welcome Contributors!
 
-This is a collaborative AI/ML initiative under **Social Summer of Code (SSoC) 2025**, aimed at building real-world, impactful machine learning solutions across diverse domains.
+This collaborative initiative under **Social Summer of Code 2025** is focused on building real-world AI/ML solutions across various domains using:
 
-We combine the power of:
+- 🤖 Deep Learning
+- 🔁 Reinforcement Learning
+- 🧠 LLM / NLP
+- 📊 Data Science & Intelligent Automation
 
-<ul>
-  <li>🤖 Deep Learning</li>
-  <li>🔁 Reinforcement Learning</li>
-  <li>🧠 LLM/NLP models</li>
-  <li>📊 Data Science & Intelligent Automation</li>
-</ul>
+Solving use-cases in:
 
-To solve problems in:
+- 🏥 Healthcare
+- 💰 Finance
+- 🌾 Agriculture
+- 📈 Stock & Crypto
+- 🛣️ Road Safety
+- 🧠 BiLSTM Architectures
+- 🔒 Federated Learning
+- 📷 Optical Detection
+- 💬 Chatbots and NLP tasks
 
-<ul>
-  <li>🏥 Healthcare</li>
-  <li>💰 Finance</li>
-  <li>🌾 Agriculture</li>
-  <li>📈 Stock/Crypto Markets</li>
-  <li>🛣️ Road Safety</li>
-  <li>🧠 Bi-directional LSTMs</li>
-  <li>🔒 Federated Learning</li>
-  <li>📷 Optical Detection</li>
-  <li>💬 Natural Language Applications</li>
-</ul>
-
-> <strong>Let's innovate, contribute, and build together — one PR at a time! 🌱</strong>
+> **Let’s innovate, build, and grow — one PR at a time! 🌱**
 
 ---
 
 <details>
-<summary><strong>Table of Contents</strong></summary>
+<summary><strong>📌 Table of Contents</strong></summary>
 
 - [📁 Project Structure](#-project-structure)
-- [💡 What You Can Build or Contribute](#-what-you-can-build-or-contribute)
-- [🏷️ Issue Labels (SSoC Specific)](#️-issue-labels-ssoc-specific)
+- [🔄 Restructuring Info](#-restructuring-info)
+- [💡 Build or Contribute](#-build-or-contribute)
+- [🏷️ Issue Labels](#-issue-labels)
 - [🧑‍💻 Get Started](#-get-started)
-- [🏆 SSoC Points System](#-ssoc-points-system)
-- [⚙️ Complete Environment Setup Guide](#️-complete-environment-setup-guide)
-- [▶️ Running Models & Projects](#️-running-models--projects)
-- [📈 Project Metrics & Status](#-project-metrics--status)
-- [📝 Recent Modifications](#-recent-modifications)
+- [🏆 Points System](#-points-system)
+- [⚙️ Setup Guide](#-setup-guide)
+- [▶️ Running Models](#-running-models)
+- [📈 Metrics & Status](#-metrics--status)
+- [📝 Recent Updates](#-recent-updates)
 - [💬 Community & Support](#-community--support)
-- [👨‍💻 Project Admin & Contributors](#-project-admin--contributors)
-- [🚀 Let's Make AI for All — Together!](#-lets-make-ai-for-all--together)
+- [👨‍💻 Admin & Contributors](#-admin--contributors)
+- [🚀 Let’s Make AI for All](#-lets-make-ai-for-all)
 
 </details>
 
@@ -76,249 +70,234 @@ To solve problems in:
 
 ## 📁 Project Structure
 
-Each folder represents a key AI application domain. Contributions go into the relevant folder and must be well-organized, with a README for each subproject.
+📦 All sub-projects are now organized under the `src/` directory:
 
-<pre>
-DataSentience-AIML/
-├── Agriculture AI/            # AI models for crop health, soil analysis, etc.
-├── Bidirectional LSTM/        # NLP and sequence modeling using BiLSTM
-├── Crypto_Prediction/         # Cryptocurrency trend analysis and forecasting
-├── Data Analysis/             # General-purpose EDA, preprocessing, ML pipelines
-├── Financial AI/              # Banking, risk assessment, fraud detection
-├── Health AI/                 # Medical diagnosis, predictions, patient risk scoring
-├── Optical Detections/        # Image recognition, object detection (YOLO, etc.)
-├── Road Safety AI/            # Accident prediction, traffic analysis, safety systems
-├── Stock Price Analysis/      # Time series forecasting for stock markets
-├── federatedlearning/         # Privacy-preserving collaborative AI
+```plaintext
+src/
+├── Agricultural Solutions/
+│   ├── Crop Yield Prediction/
+│   ├── Crop Recommendation/
+│   └── Plant Disease Detection/
+│
+├── Financial Analysis/
+│   ├── Cryptocurrency/
+│   ├── Market Analysis/
+│   └── Business Analytics/
+│
+├── Healthcare/
+│   ├── Disease Detection/
+│   ├── Medical Imaging/
+│   └── Health Monitoring/
+│
+├── Transportation & Safety/
+│   ├── Driver Safety/
+│   ├── Traffic Management/
+│   └── Helmet Detection/
+│
+├── Environmental Monitoring/
+│   ├── Weather Prediction/
+│   └── Fire Detection/
+│
+├── Machine Learning Techniques/
+│   ├── Federated Learning/
+│   ├── OCR Systems/
+│   └── Bidirectional LSTM/
+│
+├── Miscellaneous/
+├── units/               # Shared utilities
+└── requirements.txt
+```
 
-├── CONTRIBUTING.md            # 📌 Full contribution guide
-├── requirements.txt           # 🧪 Project dependencies
-└── README.md                  # 🌟 You're here!
-</pre>
+Each project contains:
 
-Each subfolder contains:
+- 📁 Scripts/Notebooks
+- 📖 README.md per module
+- 📊 Visualizations, datasets, outputs (if applicable)
 
-<ul>
-  <li>📁 Python scripts or Jupyter Notebooks</li>
-  <li>📖 A dedicated <code>README.md</code> explaining models and objectives</li>
-  <li>📊 (Optional) Visualizations, datasets, results</li>
-</ul>
-
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/Back_to_top-blue?style=flat-square" alt="Back To Top"></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/badge/Back_to_top‑blue?style=flat‑square" alt="Back To Top"></a></p>
 
 ---
 
-## 💡 What You Can Build or Contribute
+## 🔄 Restructuring Info
 
-Examples of contributions you can make:
+🗓️ **Restructure Date:** June 22, 2025  
+📁 Major migration to `src/` for clarity and modularity.
 
-- ✅ Healthcare: Disease prediction, health risk analysis
-- ✅ Finance: Portfolio optimization, credit scoring
-- ✅ Agriculture: Yield prediction, disease detection in crops
-- ✅ NLP/LLMs: Summarization, classification, chatbots
-- ✅ Safety: Road hazard alerts, helmet detection, accident forecasting
-- ✅ Advanced Learning: Bi-LSTM models, Federated Learning pipelines
-- ✅ Deployment: Flask/Streamlit web apps for any of the above
+📄 See [`CHANGES.md`](./CHANGES.md) for detailed mappings.
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/Back_to_top-blue?style=flat-square" alt="Back To Top"></a></p>
+> ⚠️ **Important**: Some imports may break. Please refactor accordingly and help improve path compatibility.
 
 ---
 
-## 🏷️ Issue Labels (SSoC Specific)
+## 💡 Build or Contribute
 
-<table>
-  <tr><th>Label</th><th>Description</th></tr>
-  <tr><td><code>SSoC-beginner</code></td><td>Perfect for newcomers 🌱</td></tr>
-  <tr><td><code>SSoC-intermediate</code></td><td>Moderate experience needed</td></tr>
-  <tr><td><code>SSoC-advanced</code></td><td>Advanced models or architectures</td></tr>
-  <tr><td><code>web-app</code></td><td>Frontend/Backend/Deployment ⭐</td></tr>
-  <tr><td><code>LLM</code></td><td>Work with transformers/NLP</td></tr>
-  <tr><td><code>domain-*</code></td><td>Domain-specific tasks (med, agri, fin)</td></tr>
-  <tr><td><code>bug</code></td><td>Identify & fix code issues</td></tr>
-  <tr><td><code>enhancement</code></td><td>Improve existing functionality</td></tr>
-  <tr><td><code>documentation</code></td><td>README/docs improvements</td></tr>
-</table>
+Build or enhance:
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/Back_to_top-blue?style=flat-square" alt="Back To Top"></a></p>
+- 🏥 Health risk scoring, early diagnosis
+- 💰 Credit scoring, fraud detection
+- 🌾 Yield or disease classifiers
+- 📈 Time series & price forecasting
+- 💬 LLM/NLP chatbots, summarizers
+- 🛣️ Traffic/helmet/accident detection
+- 🔁 Federated learning, BiLSTM pipelines
+- 🖥️ Web interfaces (Streamlit/Flask)
+
+---
+
+## 🏷️ Issue Labels
+
+| Label               | Description                           |
+| ------------------- | ------------------------------------- |
+| `SSoC-beginner`     | Beginner-friendly 🌱                  |
+| `SSoC-intermediate` | Mid-level complexity                  |
+| `SSoC-advanced`     | Deep learning or complex logic        |
+| `web-app`           | Frontend/backend integration          |
+| `LLM`               | NLP, transformers, language models    |
+| `domain-*`          | Specific domains (health, agri, etc.) |
+| `bug`               | Fix issues or errors                  |
+| `enhancement`       | Improve existing code                 |
+| `documentation`     | Improve READMEs or instructions       |
 
 ---
 
 ## 🧑‍💻 Get Started
 
-Please follow our <a href="./CONTRIBUTING.md">CONTRIBUTING.md</a> for complete steps.  
-In short:
-
-<ol>
-  <li>⭐ Fork + Clone the repo</li>
-  <li>🛠️ Pick an open issue OR create a new one</li>
-  <li>🧾 Add your project under the relevant folder</li>
-  <li>📖 Include a brief <code>README.md</code> in your folder</li>
-  <li>✅ Submit a PR and link it to the issue (e.g. <code>Closes #5</code>)</li>
-</ol>
-
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/Back_to_top-blue?style=flat-square" alt="Back To Top"></a></p>
-
----
-
-## 🏆 SSoC Points System
-
-| Contribution Type          | Points |
-| -------------------------- | ------ |
-| Bug Fixes                  | 10     |
-| New Features               | 20     |
-| LLM/NLP Projects           | 25     |
-| Domain AI Contributions    | 25     |
-| Frontend/Web Integration   | 30 ⭐  |
-| Documentation Improvements | 5      |
-
-🎖️ Top contributors will be recognized and featured by SSoC mentors.
-
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/Back_to_top-blue?style=flat-square" alt="Back To Top"></a></p>
-
----
-
-## ⚙️ Complete Environment Setup Guide
-
-### Step 1: Fork & Clone the Repository
+1. ⭐ **Fork + Clone**
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/DataSentience-AIML.git
 cd DataSentience-AIML
 ```
 
-### Step 2: Set Up Virtual Environment (Recommended)
+2. 🛠️ **Pick or Create an Issue**
+3. 📁 **Work inside correct `src/` folder**
+4. 📝 **Include README.md + instructions**
+5. ✅ **Create Pull Request (`Closes #X`)**
 
-For Windows:
+---
+
+## 🏆 Points System
+
+| Task Type             | Points |
+| --------------------- | ------ |
+| Bug Fixes             | 10     |
+| New Features          | 20     |
+| LLM/NLP Projects      | 25     |
+| Domain Contributions  | 25     |
+| Web Apps / Deployment | 30 ⭐  |
+| Documentation         | 5      |
+
+🏅 Top contributors are highlighted by mentors and may be featured in SSoC spotlights.
+
+---
+
+## ⚙️ Setup Guide
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-For macOS/Linux:
-
-```bash
+# Clone repo and set up environment
+git clone https://github.com/YOUR-USERNAME/DataSentience-AIML.git
+cd DataSentience-AIML
 python3 -m venv venv
-source venv/bin/activate
-```
-
-### Step 3: Install Dependencies
-
-```bash
+source venv/bin/activate  # or venv\Scripts\activate (Windows)
 pip install -r requirements.txt
-```
 
-### Step 4: Setup Git Upstream
-
-```bash
+# Set upstream for syncing
 git remote add upstream https://github.com/PRIYANSHU2026/DataSentience-AIML.git
 git fetch upstream
-```
-
-### Step 5: Keep Your Fork Updated
-
-```bash
 git pull upstream main
 ```
 
-### Common Issues
+🛠 Common Issues:
 
-- Dependency Conflicts: Use `--ignore-installed`
-- CUDA Issues: Ensure correct CUDA version for PyTorch
-- Memory Errors: Lower batch size or use cloud GPU
-
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/Back_to_top-blue?style=flat-square" alt="Back To Top"></a></p>
+- `ModuleNotFoundError` ➜ Check folder structure or update paths
+- CUDA mismatch ➜ Match PyTorch version with your CUDA version
+- Memory error ➜ Use cloud GPU or reduce batch size
 
 ---
 
-## ▶️ Running Models & Projects
+## ▶️ Running Models
 
-Follow the README in each domain folder for setup. In general:
+- **Streamlit**
 
-- **Web Apps** (Streamlit):
+```bash
+streamlit run app.py
+```
 
-  ```bash
-  streamlit run app.py
-  ```
+- **Flask**
 
-- **Flask Apps**:
-  ```bash
-  python app.py
-  ```
+```bash
+python app.py
+```
 
-### Hardware Requirements
+🖥️ **Hardware Suggestions**
 
-- 🧠 Basic Models: 8GB RAM, modern CPU
-- 🔬 Advanced Models: 16GB+ RAM, CUDA GPU
-- 🦾 LLM Training: 32GB RAM, 8GB VRAM GPU
-
----
-
-## 📈 Project Metrics & Status
-
-| Metric                  | Value      |
-| ----------------------- | ---------- |
-| Models Implemented      | 15+        |
-| Domains Covered         | 8          |
-| Production-Ready Models | 5          |
-| Active Development      | ✅ Ongoing |
-| Code Coverage           | ~78%       |
-| Python Version          | 3.8+       |
+- Simple models: 8GB RAM, CPU
+- Complex models: 16GB+, GPU
+- LLM training: ≥32GB RAM, 8GB VRAM
 
 ---
 
-## 📝 Recent Modifications
+## 📈 Metrics & Status
 
-✔️ Added Helmet Detection (June 5, 2025)  
-✔️ Improved Risk Model Accuracy +12% (May 28, 2025)  
-✔️ Integrated BiLSTM for medical text (May 15, 2025)  
-✔️ Streamlit dashboard for Crop AI (May 3, 2025)  
-✔️ Federated Learning Framework (April 20, 2025)
+| Metric               | Status     |
+| -------------------- | ---------- |
+| Models Implemented   | 15+        |
+| Domains Covered      | 8          |
+| Ready-to-Use Models  | 5+         |
+| Python Version       | 3.8+       |
+| Active Contributions | ✅ Ongoing |
+| Code Coverage        | ~78%       |
 
-### 🔜 Upcoming Features
+---
 
-- Real-time Stock Prediction API
-- Multi-language NLP
-- Mobile Model Export
-- Cloud Deployment Templates
-- Extended Documentation
+## 📝 Recent Updates
+
+- ✔️ Helmet Detection added (June 5, 2025)
+- ✔️ Health Risk Model (+12% accuracy)
+- ✔️ BiLSTM on MedText (May 2025)
+- ✔️ Crop AI Dashboard (Streamlit)
+- ✔️ Federated Framework Base Ready
+
+**🔜 In Progress:**
+
+- 📊 Real-time stock API
+- 🌐 Multilingual NLP
+- 📱 Mobile AI Export
+- 🛠️ Deployment Templates
+- 📚 Extended Docs
 
 ---
 
 ## 💬 Community & Support
 
-🗨️ Ask your questions in the <a href="https://github.com/PRIYANSHU2026/DataSentience-AIML/issues">Issues</a> tab  
-🤝 Be respectful, supportive, and inclusive  
-🌍 Open-source is for **everyone**!
+- Ask via [GitHub Issues](https://github.com/PRIYANSHU2026/DataSentience-AIML/issues)
+- Stay respectful, inclusive, and helpful
+- 🌍 Open-source is for everyone!
 
 ---
 
-## 👨‍💻 Project Admin & Contributors
+## 👨‍💻 Admin & Contributors
 
 <center>
 <table>
-  <tr>
-    <td align="center">
+  <tr><td align="center">
       <a href="https://github.com/PRIYANSHU2026/">
-        <img src="https://avatars.githubusercontent.com/u/153541511?v=4" width="150px" height="150px" /><br />
+        <img src="https://avatars.githubusercontent.com/u/153541511?v=4" width="150" /><br/>
         <h4>Priyanshu</h4>
       </a>
-    </td>
-  </tr>
+  </td></tr>
 </table>
 </center>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" width="35" height="35"> Contributors
-
+❤️ **Thanks Contributors!**  
 <a href="https://github.com/PRIYANSHU2026/DataSentience-AIML/graphs/contributors">
-  <img align="center" src="https://contrib.rocks/image?max=100&repo=PRIYANSHU2026/DataSentience-AIML"/>
+<img src="https://contrib.rocks/image?max=100&repo=PRIYANSHU2026/DataSentience-AIML"/>
 </a>
 
 ---
 
 ## 🚀 Let's Make AI for All — Together!
 
-We’re thrilled to have you here. Whether you're making your first PR or building advanced AI systems, you’re part of something meaningful.  
-Let’s innovate, grow, and build during **Social Summer of Code 2025**!
+We’re glad you're here. Contribute, learn, and innovate with us this summer!
 
-<div align="center"> <strong>Made with ❤️ by contributors and mentors</strong> </div>
+<div align="center"><strong>Made with ❤️ by contributors & mentors</strong></div>
