@@ -22,6 +22,20 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # Train model
 clf = RandomForestClassifier(n_estimators=100, random_state=42)
 clf.fit(X_train, y_train)
+# src/train.py (update)
+
+from utils import encode_features, soil_encoder, crop_encoder, fertilizer_encoder
+import joblib
+
+# existing training code ...
+
+# Save model and encoders
+joblib.dump(clf, '../saved_model/fertilizer_model.pkl')
+joblib.dump(soil_encoder, '../saved_model/soil_encoder.pkl')
+joblib.dump(crop_encoder, '../saved_model/crop_encoder.pkl')
+joblib.dump(fertilizer_encoder, '../saved_model/fertilizer_encoder.pkl')
+
+print("[INFO] Model and encoders saved successfully.")
 
 # Save model
 joblib.dump(clf, '../saved_model/fertilizer_model.pkl')
