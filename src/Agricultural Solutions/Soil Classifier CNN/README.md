@@ -3,7 +3,7 @@
 A deep learning-based image classification model that automatically classifies soil types from raw images. This project is part of the Agriculture AI initiative under Social Summer of Code.
 
 ---
-
+[!ui screenshot](images/training_plot.png)
 ## 📌 Problem Statement
 
 Identifying soil types manually is time-consuming and requires domain expertise. Automating this process using computer vision can help farmers, agronomists, and researchers make quick and informed decisions about crop selection and land treatment.
