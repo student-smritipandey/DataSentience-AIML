@@ -6,8 +6,14 @@ This project predicts currency exchange rates (e.g., INR to USD) using two power
 
 It uses a cleaned version of historical exchange rate data across countries, and outputs short-term forecasts.
 ---
-[!UI screenshot](asstes/1.png)
-[!UI screenshot](asstes/2.png)
+[!UI screenshot](asstes/indian.jpeg)
+[!UI screenshot](asstes/indian_g.png)
+[!UI screenshot](asstes//inr%20lstm.jpeg)
+[!UI screenshot](asstes/inr%20lstm_g.png)
+[!UI screenshot](asstes/euro%20arima.jpeg)
+[!UI screenshot](asstes/euro%20arima_g.png)
+
+
 
 ---
 
