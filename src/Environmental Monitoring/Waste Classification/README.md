@@ -27,9 +27,6 @@ A Streamlit web application that classifies waste images as either Organic or Re
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Details](#model-details)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
 
 ## Overview
 Waste management is a critical issue for environmental sustainability. This project aims to assist users in correctly classifying waste as either organic or recyclable using a simple web interface powered by deep learning. The app is designed for educational, research, and practical use cases.
