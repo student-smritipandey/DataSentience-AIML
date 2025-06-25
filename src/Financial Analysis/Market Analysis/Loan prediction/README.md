@@ -1,6 +1,6 @@
 This project predicts whether a loan application should be approved or rejected based on the applicant's financial and personal details using a Machine Learning model.
 
-
+[!UI screenshot](assets/image.png)
 
 ✅ Features
 Predicts loan approval status from user inputs
