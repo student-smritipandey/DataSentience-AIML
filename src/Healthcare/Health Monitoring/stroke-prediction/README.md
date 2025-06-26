@@ -1,7 +1,7 @@
 🧠 Stroke Prediction Using Machine Learning
 Predict the likelihood of a stroke based on health metrics such as age, BMI, glucose level, smoking habits, and medical history using a Random Forest classifier and SMOTE to handle class imbalance.
 
-
+[!ui screenshot](assets/image.png)
 stroke-prediction/
 ├── data/
 │   └── stroke_data.csv           # Dataset (CSV format)
