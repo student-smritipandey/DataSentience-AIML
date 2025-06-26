@@ -3,7 +3,8 @@
 A machine learning-based system to predict **crop yield (hg/ha)** using historical agricultural data including crop type, geographical area, rainfall, pesticide usage, and temperature. This tool aims to support **farmers and agricultural planners** by providing an estimate of crop production, helping them make informed decisions.
 
 ---
-
+[!UI screenshot](assets/1a.jpeg)
+[!UI screenshot](assets/1b.jpeg)
 [!UI screenshot](assets/image.png)
 ## 📌 Features
 
