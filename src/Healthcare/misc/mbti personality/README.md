@@ -4,6 +4,8 @@ A simple NLP-based classifier that predicts a user's Myers–Briggs Type Indicat
 📌 Overview
 This project uses the MBTI 16 Personality Dataset from Kaggle to build a multi-class text classification model. The model predicts one of the 16 MBTI types (e.g., INFP, ESTJ, etc.) from a user's written posts.
 
+[!ui screenshot](assets/image.png)
+
 🧾 Dataset
 Source: Kaggle - MBTI Personality Type Dataset
 
