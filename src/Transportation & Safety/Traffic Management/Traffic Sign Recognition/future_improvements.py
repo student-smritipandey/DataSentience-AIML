@@ -5,4 +5,4 @@ def process_video():
     cap = cv2.VideoCapture(0)
     while True:
         ret, frame = cap.read()
-        processed = preprocess_image(frame)
+        processed = preprocess_image(frame)  # Pass frame directly

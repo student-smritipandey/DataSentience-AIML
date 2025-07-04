@@ -22,11 +22,11 @@ for i in range(classes):
 
     for a in images:
         try:
-            img_array = preprocess_image(a)
+            img_array = preprocess_image(os.path.join(path, a))  # Full path
             data.append(img_array)
             labels.append(i)
-        except:
-            print("Error loading image")
+        except Exception as e:
+            print(f"Error loading image {a}: {e}")
 
 # Converting lists into numpy arrays
 data = np.array(data)
@@ -91,10 +91,11 @@ imgs = y_test["Path"].values
 
 data = []
 
-for img in imgs:
-    image = Image.open(img)
-    image = image.resize((30, 30))
-    data.append(np.array(image))
+for img_path in imgs:
+    try:
+        data.append(preprocess_image(img_path))
+    except Exception as e:
+        print(f"Error loading test image {img_path}: {e}")
 
 X_test = np.array(data)
 

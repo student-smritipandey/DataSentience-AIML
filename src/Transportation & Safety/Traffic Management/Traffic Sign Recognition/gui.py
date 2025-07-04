@@ -65,11 +65,11 @@ label = Label(top, background='#CDCDCD', font=('arial', 15, 'bold'))
 sign_image = Label(top)
 
 
-def classify(file_path):
-    image = preprocess_image(file_path)
+def classify(input):
+    image = preprocess_image(input)
     image = np.expand_dims(image, axis=0)
     pred = model.predict(image)
-    sign = classes[np.argmax(pred) + 1]  # +1 for class dictionary offset
+    sign = classes[np.argmax(pred)]
     label.configure(foreground='#011638', text=sign)
 
 
@@ -89,9 +89,14 @@ def upload_image():
         sign_image.configure(image=im)
         sign_image.image = im
         label.configure(text='')
+        
+        # Pass both file path and PIL image to handler
         show_classify_button(file_path)
-    except:
-        pass
+        classify_button = Button(top, text="Classify Image", 
+                                command=lambda: classify(uploaded),
+                                padx=10, pady=5)
+    except Exception as e:
+        print(f"Error: {e}")
 
 
 upload = Button(top, text="Upload an image", command=upload_image, padx=10, pady=5)
