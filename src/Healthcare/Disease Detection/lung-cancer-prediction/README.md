@@ -2,6 +2,8 @@ Here is a detailed and polished `README.md` for your **Lung Cancer Risk Predicto
 
 ---
 
+[!ui screenshot](assets/image.png)
+
 ### ✅ `README.md`
 
 ```markdown
