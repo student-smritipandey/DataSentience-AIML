@@ -4,6 +4,8 @@ This project uses machine learning to predict the **risk category** (e.g., Low, 
 
 ---
 
+[!ui screenshot](assets/image.png)
+
 ## 📁 Project Structure
 
 ```
