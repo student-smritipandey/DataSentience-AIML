@@ -2,6 +2,9 @@
 
 A machine learning model that predicts whether it will rain on a given day based on weather attributes like temperature, humidity, cloud cover, and wind.
 
+
+
+[!ui screenshot](assets/image.png)
 ---
 
 ## 📂 Folder Structure
