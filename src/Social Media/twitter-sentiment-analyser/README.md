@@ -2,6 +2,8 @@
 
 The **Twitter Sentiment Analyzer** is a machine learning project that classifies tweets as **Positive**, **Neutral**, or **Negative**. It uses a preprocessed version of the **Sentiment140 dataset**, which contains 1.6 million tweets labeled for sentiment.
 
+[!ui screenshot](assets/image.png)
+
 The model is built using classic NLP techniques (TF-IDF + Logistic Regression), making it fast, interpretable, and easy to train. This project is suitable for beginners and intermediate ML practitioners and is structured following open-source contribution best practices for programs like **Social Summer of Code (SSoC)**.
 
 ---
