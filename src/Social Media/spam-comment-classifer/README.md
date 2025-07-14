@@ -4,6 +4,8 @@ A machine learning project that detects whether a YouTube comment is **spam** or
 
 ---
 
+[!ui screenshot](assets/image.png)
+
 ## 🧠 Project Motivation
 
 Spam comments are a major issue on platforms like YouTube. They degrade user experience, spread misinformation, and clutter content. This classifier provides a lightweight solution to automatically flag spammy content based on comment text alone.
