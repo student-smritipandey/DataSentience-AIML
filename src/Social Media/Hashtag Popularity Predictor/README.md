@@ -4,6 +4,8 @@ Predict whether a hashtag is likely to trend on social media using its metadata 
 
 ---
 
+[!ui screenshot](assets/image.png)
+
 ## 📌 Project Description
 
 Hashtags are powerful tools in digital marketing and social communication. This machine learning project predicts whether a hashtag is likely to trend (i.e., become popular) based on:
