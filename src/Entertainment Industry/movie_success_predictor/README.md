@@ -1,6 +1,8 @@
  Movie Success Predictor
 Predict whether a movie will be a box office hit or flop using machine learning based on various features like cast, director, genre, budget, and more. Built using the TMDB 5000 Movies and Credits dataset.
 
+[!ui screenshot](assets/image.png)
+
 📊 Problem Statement
 Movie studios invest millions in production and promotion. However, predicting a movie's financial success remains a challenge. This project uses machine learning to build a predictive model that classifies movies as Hit or Flop based on features like:
 
